@@ -1,9 +1,14 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    text-align: justify;
+    text-align: center;
+    background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 img {
     max-width: 500px;
     align-content: center;
+    border: 15px color(srgb red green blue);
+    border-radius: 10%;
 }
